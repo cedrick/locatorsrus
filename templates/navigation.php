@@ -35,13 +35,13 @@ a:active {
       <a href="http://www.locatorsrus.biz/order-and-pricing">
         <strong>
           <font color="#FFFBF0" face="Arial Rounded MT Bold" size="3">
-            Store
+            Order&Pricing
           </font>
         </strong>
       </a>
      </li> 
      <li>     
-      <a href="admin_logs.php">
+      <a href="http://www.locatorsrus.biz/promos">
        <strong>
          <font color="#FFFBF0" face="Arial Rounded MT Bold" size="3">
           Promos
@@ -50,7 +50,7 @@ a:active {
       </a>
      </li> 
       <li>     
-      <a href="admin_logs.php">
+      <a href="tips_page.php">
        <strong>
          <font color="#FFFBF0" face="Arial Rounded MT Bold" size="3">
           Tips/Charities
@@ -59,7 +59,7 @@ a:active {
       </a>
      </li> 
       <li>     
-      <a href="admin_logs.php">
+      <a href="faq_page.php">
        <strong>
          <font color="#FFFBF0" face="Arial Rounded MT Bold" size="3">
          FAQ's
@@ -67,20 +67,20 @@ a:active {
        </strong>
       </a>
      </li> 
-     <li>     
-      <a href="admin_logs.php">
+      <li>     
+      <a href="http://www.locatorsrus.biz/contact-us">
        <strong>
          <font color="#FFFBF0" face="Arial Rounded MT Bold" size="3">
-         BLog
+         Contact Us
          </font>
        </strong>
       </a>
      </li> 
      <li>     
-      <a href="admin_logs.php">
+      <a TARGET="_blank"  href="http://locatorsrus.blogspot.com/">
        <strong>
          <font color="#FFFBF0" face="Arial Rounded MT Bold" size="3">
-         Testimonials
+         BLog
          </font>
        </strong>
       </a>

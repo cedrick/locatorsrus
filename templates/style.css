@@ -1,8 +1,8 @@
-<style type="text/css" href="mystyle.css" />
+<style type="text/css" href="mystyle.css" media="screen"/>
 
 
 body {
-				margin:0;
+				margin:0; padding:0; height:100%; width:100%;
      }
 
 
@@ -30,13 +30,24 @@ body {
 				left:80px;	
 				float: left;
 	   	 }
+	   	 
+.container{
+			
+			margin:auto;
+}
 
+.back{
+		position:fixed; left:0; top:0; z-index:1; height:100%; width:100%;
+}
+
+.tips{
+			position:absolute;
+			top:0px;
+			left:0px;
+}
 .content{ 
-          	background-image: url(templates/images/locators_back.jpg);	
-          	background-color: #FFF;
-			background-position:center;
-		  	width:1280px;
-		  	height:1000px;	
+          	
+          	position:absolute; left:0; top:0; z-index:70; height:100%; width:100%;
        	}	      
 .login{ 
 				width:366px;
@@ -95,8 +106,9 @@ a:hover{
 				}
 
 .quick_links{
-			position:fixed;
-			left:20px;
+			position:absolute;
+			top:65px;
+			left:120px;
 }
 
 .reg_container{ 
@@ -149,12 +161,43 @@ a:hover{
 	   
 .footer{ 
 					border-top:1px solid gray;
+					 background-color:#A00;
 					clear: both;
 					color: #9EC1CF;
 					font-size: 11px;
 					text-align: center;
 				}
 				
+.char1{
+		width:270px;
+	 	height:100px;	
+	 	border-radius:7px;
+	 	background-color:#8CB57E;
+	 	background-image: url(templates/images/nccs.png);	
+}
+
+.char2{
+		width:270px;
+	 	height:100px;	
+	 	border-radius:7px;
+	 	background-color:#8CB57E;
+	 	background-image: url(templates/images/americanlung.png);	
+}
+
+.char3{
+		width:270px;
+	 	border-radius:7px;
+	 	background-color:#8CB57E;
+	 	background-image: url(templates/images/nfb.png);	
+}
+
+.char4{
+		width:270px;
+	 	border-radius:7px;
+	 	background-color:#8CB57E;
+	 	background-image: url(templates/images/abcd.png);	
+}
+	
 .line_big{ 
 					border-top:5px solid gray;
 					clear: both;
@@ -169,35 +212,247 @@ a:hover{
 }
 
 .sub_content{
-		width:623px;
-		height:550px;	
-		position:fixed;
-		top:150px;
-		left:400px;
-		border:2px solid;
+		width:715px;
+		height:350px;	
+		position:absolute;
+		top:190px;
+		left:450px;
 		border-radius:7px;
 		-moz-border-radius:25px; /* Firefox 3.6 and earlier */
-		background-image: url(templates/images/art_back.png);	
+		background-image: url(templates/images/home_content.png);	
 		background-color:#8CB57E;
 }
 
 .sub_content_about{
-		width:800px;
-		height:560px;	
-		position:fixed;
-		top:150px;
-		left:400px;
-		border:2px solid;
+		position:absolute;
+		top:180px;
+		left:450px;
 		border-radius:7px;
-		-moz-border-radius:25px; /* Firefox 3.6 and earlier */
-		background-image: url(templates/images/art_back.png);	
-		background-color:#8CB57E;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
 }
 
-.sub_content_script{
-		width:1027px;
-		height:4090px;	
-		background-color:#8CB57E;
+.tips_content{
+		
+		position:absolute;
+		top:180px;
+		left:450px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+		
+}
+
+.container_tips{
+				width:100%;
+				height:900%;
+				background-color:#e3f784;	
+				
+}
+
+.container_about{
+					width:100%;
+				height:170%;
+				background-color:#e3f784;	
+				
+}
+
+.container_home{
+				width:100%;
+				height:140%;
+				background-color:#e3f784;	
+				
+}
+
+.container_faq{
+				width:100%;
+				height:370%;
+				background-color:#e3f784;	
+				
+}
+.fcontent{
+			border-radius:9px;
+			-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+.abcd{
+		position:absolute;
+		top:180px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.lung{
+		position:absolute;
+		top:180px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.nccs{
+		position:absolute;
+		top:350px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.nfb{
+		position:absolute;
+		top:350px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.operation{
+		position:absolute;
+		top:522px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.cancer{
+		position:absolute;
+		top:522px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.salvation{
+	
+		position:absolute;
+		top:760px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.teens{
+	
+		position:absolute;
+		top:760px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.vans{
+	
+		position:absolute;
+		top:1000px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.united{
+	
+		position:absolute;
+		top:1000px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.red{
+	
+		position:absolute;
+		top:1240px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.hug{
+	
+		position:absolute;
+		top:1240px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.autisim{
+	
+		position:absolute;
+		top:1480px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.missing{
+	
+		position:absolute;
+		top:1480px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.ms{
+	
+		position:absolute;
+		top:1722px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.child{
+	
+		position:absolute;
+		top:1722px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.hfw{
+	
+		position:absolute;
+		top:1960px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.diabetes{
+	
+		position:absolute;
+		top:1960px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.living{
+	
+		position:absolute;
+		top:2198px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.chf{
+	
+		position:absolute;
+		top:2198px;
+		left:350px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
+}
+
+.quest{
+	
+		position:absolute;
+		top:2435px;
+		left:15px;
+		border-radius:7px;
+		-moz-border-radius:25px; /* Firefox 3.6 and earlier */	
 }
 
 .sub_content_rebuttals{
