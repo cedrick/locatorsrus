@@ -1,6 +1,9 @@
 <html>
 <head>
-<title>Locators R Us</title>
+<title>Locators R Us Vending Machine</title>
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW, ARCHIVE" />
+<meta name="description" content="Locators R US Affordable Candy Vending Machine in Canada">
+<meta name="keywords" content="Affordable Candy Vending Machine,Canada Vending Machine,Locators Are Us,Candy Vending Machine,Export Vending Machine Canada">
 <link rel="shortcut icon" href="templates/images/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="library/ui-lightness/jquery-ui.css" />
 <script type="text/javascript" src="library/jquery.js"></script>
@@ -40,15 +43,13 @@
 	<tr>
 		<td>
 			<img class="back" src="templates/images/locators_back.png" height="876" alt="locators_back"/>
-			<div class="content" >
+			<div class="content" align="center">
 		
 				<div class="quick_links">
 				<?php include ("templates/navigation.php"); ?>
 				</div>
 				<div class="sub_content_about">
 					<iframe src="home_text.php" width="750" height="300" frameborder="0" class="fcontent">
-						
-						
 						
 					</iframe>
 				</div>

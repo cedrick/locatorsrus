@@ -1,6 +1,9 @@
 <html>
 <head>
-<title>Locators R Us</title>
+<title>Locators R Us Vending Machine</title>
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW, ARCHIVE" />
+<meta name="description" content="Locators R US Affordable Candy Vending Machine in Canada">
+<meta name="keywords" content="Affordable Candy Vending Machine,Canada Vending Machine,Locators Are Us,Candy Vending Machine,Export Vending Machine Canada">
 <link rel="shortcut icon" href="templates/images/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="library/ui-lightness/jquery-ui.css" />
 <script type="text/javascript" src="library/jquery.js"></script>
